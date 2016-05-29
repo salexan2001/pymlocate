@@ -13,5 +13,7 @@ encodings: https://pypi.python.org/pypi/chardet
 
 ## Example:
 import pymlocate
+
 ml = pymlocate.open_locate_db("mlocate.db", True)
+
 print(ml[0].dirname)
